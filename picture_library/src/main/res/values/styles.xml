@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PictureThemeWindowStyle">
+
+    </style>
+
+    <style name="PictureThemeDialogWindowStyle">
+
+    </style>
+
+    <style name="Picture.Theme.Dialog.AudioStyle">
+
+    </style>
+
+    <style name="Picture.Theme.AlertDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="a_sdk_dialog_theme" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#30000000</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="PictureThemeDialogFragmentAnim" mce_bogus="1" parent="android:Animation">
+
+    </style>
+
+    <style name="Picture.Theme.Dialog" parent="@android:style/Theme.Dialog">
+
+    </style>
+
+
+    <!--默认样式-->
+    <style name="picture.default.style" parent="Base.Theme.NoActionBar">
+
+    </style>
+
+
+    <!--仿微信样式，注意每一项都不能少-->
+    <style name="picture.WeChat.style" parent="Base.Theme.NoActionBar">
+
+    </style>
+
+    <style name="Picture.Theme.Translucent" parent="Base.Theme.NoActionBar">
+
+    </style>
+
+    <style name="Base.Theme.NoActionBar"  parent="@android:style/Theme.Translucent.NoTitleBar">
+
+    </style>
+
+
+    <style name="PictureSelectorBg" parent="Base.Theme.NoActionBar">
+        <!-- 设置允许窗口半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 引用Android系统的动画半透明样式 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Activity</item>
+        <!-- 设定窗口背景颜色 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 隐藏窗口标题栏 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowCloseOnTouchOutside">@null</item>
+        <!--背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--        <item name="android:windowAnimationStyle">@style/Theme.SDKInOut</item>-->
+    </style>
+
+</resources>
